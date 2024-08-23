@@ -34,6 +34,34 @@ body {
     box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
 
+#ios2-container {
+    margin-top: 20px;
+}
+
+#ios2-text {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 1em;
+}
+
+#ios2-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#ios2-button:hover {
+    background-color: #0056b3;
+}
+
 /* Bubble animation */
 @keyframes bubble {
     0% {
@@ -101,3 +129,39 @@ body {
     animation-duration: 11s;
     animation-delay: 7s;
 }
+
+#switch-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #004c97;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#switch-button:hover {
+    background-color: #007bff;
+}
+
+#textbox {
+    margin-top: 20px;
+    width: 100%;
+    font-size: large;
+    height: 100px;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #004c97;
+    resize: none; 
+    background-color: #004c97;
+    overflow: hidden; 
+}
+
+#textbox::placeholder {
+    font-size: large;
+    color: white; 
+}
+
